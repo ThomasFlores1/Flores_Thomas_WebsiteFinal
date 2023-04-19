@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project: CSS + jQuery</title>
+    <link rel="stylesheet" href="Stylesheet/Styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gdr6ssl.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <img src="images/kasama.png" alt="Kasama" width="200">
+        <nav class="display-desktop">
+            <ul>
+                <li><a href="#ordernow">Order Now</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#hours">Hours</a></li>
+                <li><a href="#catering">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-image dish fade--in active">
+        <div class="flex-container">
+          <div>
+            <h1>Find culinary bliss through authentic flavors</h1>
+            <h2>Awarded 2022 Michelin Star</h2>
+          </div>
+        </div>
+    </div>
+
+    <main class="max-width padded">
+      <section class="display-grid">
+          <article class="dish a">
+            <img src="images/dish.jpg" alt="dish" width="700" height="auto">
+          </article>
+          <article class="chef">
+            <img src="images/chef.jpg" alt="chef" width="700" height="auto">
+          </article>
+        </section>
+      </main>
+
+      <section class="display-grid container-sm">
+        <div class="fade--in-2">
+          <h3>Awarded 2022 Recognition for Culinary Excellence</h3>
+        </div>
+        <img src="images/Michelin.svg" alt="michelin" width="300" height="auto">
+      </section>
+      <section class="display-grid container-sm">
+        <div>
+          <h1>Kasama has the Pastry Program of the Year!</h1>
+          <h2>-Jean Banchet</h2>
+        </div>
+        <img src="images/plate.jpg" alt="plate" width="300" height="auto">
+      </section>
+      <div class="flex-container justify-space-between">
+        <a href="breakfast.asp">Breakfast</a>
+        <img src="images/dish.jpg" alt="Brunch" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+      <div class="flex-container justify-space-between">
+        <a href="lunch.asp">Lunch</a>
+        <img src="images/sopa.jpg" alt="lunch" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+      <div class="flex-container justify-space-between">
+        <a href="dinner.asp">Dinner</a>
+        <img src="images/table.jpg" alt="dinner" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+      <div class="flex-container justify-space-between">
+        <a href="beverage.asp">Drinks</a>
+        <img src="images/bebe.jpg" alt="beverage" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+      <div class="flex-container justify-space-between">
+        <a href="desserts.asp">Desserts</a>
+        <img src="images/helado.jpg" alt="desserts" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+      <div class="flex-container justify-space-between">
+        <a href="giftcard.asp">Gift Cards</a>
+        <img src="images/Gift.jpg" alt="giftcard" width="100" height="auto" style="border-radius: 15px;">
+      </div>
+    </section>
+  <footer>
+<p>Thomas Flores<br>14 April 2023<br>DDN-300<br>Web Design I<br>CSS+jQuery</p>
+  </footer>
+<script src="JS/dom-element-detector.js"></script>
+</body>
 </html>
